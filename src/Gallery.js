@@ -67,7 +67,7 @@ const Gallery = () =>{
     return(
         <>
         <div className={model? "model-open" : "model"}>
-            <img src={tempimgSrc} />
+            <img src={tempimgSrc} alt="img2" />
             <CancelIcon onClick={()=> setModel(false)}></CancelIcon>
         </div>
         <div className="gallery">
